@@ -1,0 +1,118 @@
+.contact-container {
+    display: block;
+    width: 90%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.contact-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-sub-title {
+    font-size: 18px;
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+.contact-sub-title span {
+    color: blue ;
+}
+
+.contact-box {
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+}
+
+.icons {
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.description {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.description .address {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.address {
+    margin-bottom: -10px;
+}
+
+form {
+    display: block;
+    width: 40%;
+    margin: 30px auto 20px auto;
+    text-align: left;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+    background-color: white;
+
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 26px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+@media (max-width: 700px) {
+    .contact-box {
+        display: block;
+        width: 95%;
+        margin: 0 auto 20px auto;
+        text-align: left;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .icons {
+        padding: 15px;
+        margin-right: 10px;
+    }
+
+    form {
+        width: 80%;
+        margin-top: 40px;
+    }
+}

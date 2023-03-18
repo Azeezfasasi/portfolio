@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.4);
+    position: sticky;
+    top: 0;
+    height: 80px;
+    position: relative;
+    padding-top: 3px;
+}
+
+@media (max-width: 700px) {
+.logo {
+        margin-left: 8px;
+        font-family: fantasy;
+        font-size: 30px;
+        text-shadow: 3px 1px deeppink;
+    }
+
+nav {
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.drop-btn {
+    text-decoration: none;
+    color: deeppink;
+}
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #bbb;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+}
+
+@media (min-width: 701px) {
+    nav {
+        display: none;
+    }
+    .logo {
+        display: inline-block;
+        width: 45%;
+        margin-left: 8px;
+        font-family: fantasy;
+        font-size: 30px;
+        text-shadow: 3px 3px deeppink;
+    }
+    .dropdown-content {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .dropdown-content a {
+        background-color: deeppink;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 8px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: blue;
+        color: white;
+    }
+
+}

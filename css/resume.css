@@ -1,0 +1,84 @@
+
+.resume-container {
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.resume-sub-title {
+    font-family: fantasy;
+    font-size: 18px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.resume-sub-title span {
+    color: blue;
+}
+
+.ex {
+    margin-top: 100px;
+}
+
+.edu, .ex {
+    text-align: center;
+}
+
+.border {
+    display: none;
+}
+
+.resume-box, .ex-box {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.8);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.resume-box h3, .ex-box h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   color: deeppink;
+
+}
+
+.edu-title, .ex-title {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.edu-date, .ex-date {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .resume-box, .ex-box {
+        display: block;
+        width: 70%;
+        margin: auto;
+        background-color: transparent;
+    }
+
+    .border {
+        display: block;
+        background-color: black;
+        padding: 1px;
+        width: 80%;
+        margin: 20px auto 20px auto;
+    }
+
+}

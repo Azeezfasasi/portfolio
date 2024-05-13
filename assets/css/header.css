@@ -101,6 +101,10 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  
   .header-section {
     position: sticky;
     display: flex;

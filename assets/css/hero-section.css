@@ -2,7 +2,7 @@
     height: 600px;
     position: relative;
     overflow: hidden;
-    background: url(/assets/img/Hero.svg) center;
+    background: url(img/Hero.svg) center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 280px;

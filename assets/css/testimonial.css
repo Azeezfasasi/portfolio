@@ -1,0 +1,190 @@
+.testimonial-wrapper {
+    flex-shrink: 0;
+    height: 457px;
+    position: relative;
+    background: url(/assets/img/Hero.svg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-wrapper .testimonial-frame {
+    padding: 0px 80px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    height: 377px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none; /* For older versions of Firefox */
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.testimonial-frame .testimonial-box {
+    background: rgba(217, 217, 217, 0.05);
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(
+        97.08deg,
+        rgba(26, 83, 159, 0.2) 0%,
+        rgba(9, 30, 57, 0.2) 100%
+    );
+    flex-shrink: 0;
+    width: 800px;
+    height: 291px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+        inset -40px 40px 40px 0px rgba(255, 255, 255, 0.1),
+        inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(25px);
+}
+
+.testimonial-box .author-image {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #1a539f;
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 288px;
+    height: 192px;
+    position: absolute;
+    left: 40px;
+    top: -40px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.testimonial-box .testimonial-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 288px;
+    position: absolute;
+    left: 40px;
+    top: 176px;
+}
+
+.testimonial-text .author-name {
+    color: #204f85;
+    text-align: left;
+    font-family: "SegoeUi-Semibold", sans-serif;
+    font-size: 28px;
+    line-height: 140%;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.testimonial-text .author-position {
+    color: #000000;
+    text-align: left;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 19px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.testimonial-box .author-description {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 392px;
+    position: absolute;
+    left: 368px;
+    top: 40px;
+    margin: 0;
+}
+
+.author-description p {
+    color: #000000;
+    text-align: left;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size:19px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width:767px) {
+    .testimonial-wrapper {
+        height: 315px;
+    }
+
+    .testimonial-wrapper .testimonial-frame {
+        width: 328px;
+        height: 267px;
+        overflow-x: scroll;
+        padding-top: 10px;
+    }
+
+    .testimonial-frame .testimonial-box {
+        width: 596px;
+        height: 218px;
+    }
+
+    .testimonial-box .author-image {
+        width: 144px;
+        height: 96px;
+        position: absolute;
+        left: 20px;
+        top: -20px;
+    }
+
+    .testimonial-box .testimonial-text {
+        width: 144px;
+        position: absolute;
+        left: 20px;
+        top: 92px;
+    }
+    
+    .testimonial-text .author-name {
+        font-size: 19px;
+        margin: 0;
+    }
+    
+    .testimonial-text .author-position {
+        font-size: 17px;
+    }
+    
+    .testimonial-box .author-description {
+        position: absolute;
+        left: 184px;
+        top: 20px;
+        margin: 0;
+    }
+    
+    .author-description p {
+        font-size: 17px;
+        line-height: 120%;
+    }
+}

@@ -1,0 +1,194 @@
+.accomplishment-wrapper {
+    flex-shrink: 0;
+    height: 380px;
+    width: 100%;
+    position: relative;
+    background: rgba(26, 83, 159, 0.6);
+    box-shadow: inset -40px 40px 40px 0px rgba(255, 255, 255, 0.1),
+        inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1);
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.accomplishment-wrapper .accomplishments-card {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 80%;
+}
+
+.accomplishments-card .accomplishment-box {    
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.accomplishment-box .accomp-number {
+    color: #ffffff;
+    font-family: "SegoeUi-Semibold", sans-serif;
+    font-size: 28px;
+    line-height: 140%;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.accomplishment-box .accomp-title {
+    color: #ffffff;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 23px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .accomplishment-wrapper {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: visible;
+        padding: 60px 0;
+    }
+    
+    .accomplishment-wrapper .accomplishments-card {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .accomplishments-card .accomplishment-box {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .accomplishment-box img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .accomplishment-box .accomp-number {
+        color: #ffffff;
+        font-family: "SegoeUi-Semibold", sans-serif;
+        font-size: 19px;
+        line-height: 120%;
+        font-weight: 600;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+    .accomplishment-box .accomp-title {
+        color: #ffffff;
+        font-family: "SegoeUi-Regular", sans-serif;
+        font-size: 18px;
+        line-height: 120%;
+        font-weight: 400;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .accomplishment-wrapper {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: visible;
+        padding: 60px 0;
+    }
+    
+    .accomplishment-wrapper .accomplishments-card {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .accomplishments-card .accomplishment-box {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .accomplishment-box img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .accomplishment-box .accomp-number {
+        color: #ffffff;
+        font-family: "SegoeUi-Semibold", sans-serif;
+        font-size: 19px;
+        line-height: 120%;
+        font-weight: 600;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+    .accomplishment-box .accomp-title {
+        color: #ffffff;
+        font-family: "SegoeUi-Regular", sans-serif;
+        font-size: 18px;
+        line-height: 120%;
+        font-weight: 400;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+}

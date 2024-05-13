@@ -1,0 +1,614 @@
+.contact-wrapper {
+    background: rgba(26, 83, 159, 0.6);
+    box-shadow: inset -40px 40px 40px 0px rgba(255, 255, 255, 0.1),
+        inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(25px);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-wrapper .contact-container {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contact-container .contact-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 682px;
+    position: relative;
+}
+
+.contact-frame .contact-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.contact-title p {
+    color: #c18c77;
+    text-align: left;
+    font-family: "SegoeUi-Semibold", sans-serif;
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.contact-frame .contact-description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.contact-description p {
+    color: #4e4e4e;
+    text-align: left;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 19px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.contact-frame .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.contact-info .contact-info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 250px;
+    position: relative;
+    margin: 0;
+}
+
+.contact-info-box img {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+
+.contact-info-box p {
+    color: #c18c77;
+    text-align: left;
+    font-family: "SegoeUi-Semibold", sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-container .social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.social-container .image-box {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.contact-container .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 400px;
+    height: 460px;
+    position: relative;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+input[type=text] {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #c18c77;
+    border-width: 1px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#name::placeholder, #email::placeholder, #subject::placeholder, #msg::placeholder {
+    color: #a0a0a0;
+    text-align: left;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+input[type=email] {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #c18c77;
+    border-width: 1px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+textarea {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #c18c77;
+    border-width: 1px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+form button {
+    background: #c18c77;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 240px;
+    height: 56px;
+    color: #ffffff;
+    text-align: left;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    align-self: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-wrapper .contact-container {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 70%;
+        overflow-x: hidden;
+    }
+
+    .contact-title p {
+        font-size: 22px;
+        line-height: 120%;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .contact-description {
+        width: 45%;
+    }
+    
+    .contact-description p {
+        font-size: 17px;
+        line-height: 120%;
+        font-weight: 400;
+        margin: 0;
+        width: 100%;
+    }
+
+    .contact-info-box img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .contact-info-box p {
+        font-size: 15px;
+        line-height: 120%;
+        font-weight: 600;
+    }
+
+    .contact-container .social-container {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .social-container .image-box {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .image-box img {
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        position: relative;
+    }
+
+    .contact-container .form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 100%;
+        height: 460px;
+        position: relative;
+    }
+    
+    .form-container form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    input[type=text] {
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #c18c77;
+        border-width: 1px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        /* height: 40px; */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    #name::placeholder, #email::placeholder, #subject::placeholder, #msg::placeholder {
+        font-size: 16px;
+        line-height: 120%;
+        font-weight: 400;
+    }
+    
+    input[type=email] {
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #c18c77;
+        border-width: 1px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        /* height: 40px; */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #c18c77;
+        border-width: 1px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 40px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    form button {
+        background: #c18c77;
+        border-radius: 16px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 240px;
+        height: 56px;
+        color: #ffffff;
+        text-align: left;
+        font-family: "SegoeUi-Regular", sans-serif;
+        font-size: 16px;
+        line-height: 120%;
+        font-weight: 400;
+        position: relative;
+        align-self: center;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-wrapper .contact-container {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 70%;
+        overflow-x: hidden;
+    }
+
+    .contact-title p {
+        font-size: 22px;
+        line-height: 120%;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .contact-description {
+        width: 80%;
+    }
+    
+    .contact-description p {
+        font-size: 17px;
+        line-height: 120%;
+        font-weight: 400;
+        margin: 0;
+        width: 100%;
+    }
+
+    .contact-info-box img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .contact-info-box p {
+        font-size: 15px;
+        line-height: 120%;
+        font-weight: 600;
+    }
+
+    .contact-container .social-container {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    .social-container .image-box {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .image-box img {
+        flex-shrink: 0;
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+
+    .contact-container .form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 100%;
+        height: 460px;
+        position: relative;
+    }
+    
+    .form-container form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    input[type=text] {
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #c18c77;
+        border-width: 1px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        /* height: 40px; */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    #name::placeholder, #email::placeholder, #subject::placeholder, #msg::placeholder {
+        font-size: 16px;
+        line-height: 120%;
+        font-weight: 400;
+    }
+    
+    input[type=email] {
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #c18c77;
+        border-width: 1px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        /* height: 40px; */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #c18c77;
+        border-width: 1px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 40px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    form button {
+        background: #c18c77;
+        border-radius: 16px;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 240px;
+        height: 56px;
+        color: #ffffff;
+        text-align: left;
+        font-family: "SegoeUi-Regular", sans-serif;
+        font-size: 16px;
+        line-height: 120%;
+        font-weight: 400;
+        position: relative;
+        align-self: center;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}

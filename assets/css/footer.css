@@ -1,0 +1,128 @@
+.footer-wrapper {
+    background: rgba(0, 0, 0, 0.3);
+    height: 154px;
+    position: relative;
+    box-shadow: inset -40px 40px 40px 0px rgba(255, 255, 255, 0.1),
+        inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1),
+        0px 2px 2px 0px rgba(26, 83, 159, 0.1);
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+}
+
+.footer-wrapper .footer-legal {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 80px;
+    top: calc(50% - 25px);
+}
+
+.footer-legal .copywrite-box {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.copywrite-box .copy-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrapper .footer-developer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 369px;
+    top: calc(50% - 25px);
+}
+
+.footer-developer p {
+    color: #ffffff;
+    text-align: center;
+    font-family: "SegoeUi-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-developer span {
+    color: #05F1FA;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-wrapper {
+        background: rgba(0, 0, 0, 0.3);
+        height: 154px;
+        position: relative;
+        box-shadow: inset -40px 40px 40px 0px rgba(255, 255, 255, 0.1),
+            inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1),
+            0px 2px 2px 0px rgba(26, 83, 159, 0.1);
+        overflow: hidden;
+        backdrop-filter: blur(25px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-wrapper .footer-legal {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: initial;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .footer-wrapper .footer-developer {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: initial;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer-wrapper {
+        background: rgba(0, 0, 0, 0.3);
+        height: 154px;
+        position: relative;
+        box-shadow: inset -40px 40px 40px 0px rgba(255, 255, 255, 0.1),
+            inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1),
+            0px 2px 2px 0px rgba(26, 83, 159, 0.1);
+        overflow: hidden;
+        backdrop-filter: blur(25px);
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

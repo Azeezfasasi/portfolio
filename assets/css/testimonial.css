@@ -63,7 +63,7 @@
     left: 40px;
     top: -40px;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .testimonial-box .testimonial-text {

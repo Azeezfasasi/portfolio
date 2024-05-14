@@ -111,7 +111,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .header-section .logo-wrapper {
@@ -225,6 +225,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    overflow: visible;
   }
 
   .header-section .logo-wrapper {

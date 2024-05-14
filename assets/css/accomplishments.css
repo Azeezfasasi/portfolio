@@ -71,7 +71,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        overflow: visible;
+        overflow: hidden;
         padding: 60px 0;
     }
     
@@ -136,7 +136,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        overflow: visible;
+        overflow: hidden;
         padding: 60px 0;
     }
     

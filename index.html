@@ -22,17 +22,17 @@
             <!-- Menu for large screen devices -->
             <div class="header-buttons">
                 <div class="nav-button">
-                    <a href="">Home</a>
+                    <a href="#">Home</a>
                     <div class="line"></div>
                 </div>
                 <div class="nav-button">
-                    <a href="">About</a>
+                    <a href="#accomplishment">About</a>
                 </div>
                 <div class="nav-button">
-                    <a href="">Contact</a>
+                    <a href="#services">Services</a>
                 </div>
                 <div class="nav-button">
-                    <a href="">Services</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
 
@@ -43,10 +43,11 @@
                 <span class="bar"></span>
             </div> 
             <ul class="nav-list" id="nav-list">
-                <li><a class="active" href="">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
 
@@ -77,7 +78,7 @@
                 </div>
                 <div class="social-wrapper">
                     <a href="https://www.linkedin.com/in/azeez-fasasi-616106144/"><img src="assets/img/linkedin.png" alt="linkedin"></a>
-                    <a href="https://github.com/Azeezfasasi?tab=repositories"><img style="width: 45px; height: 45px;" src="assets/img/Github-removebg-preview.png" alt=""></a>
+                    <a href="https://github.com/Azeezfasasi?tab=repositories"><img class="github" src="assets/img/Github-removebg-preview.png" alt=""></a>
                     <a href="mailto:fas.azeez@gmail.com"><img src="assets/img/gmail.png" alt=""></a>
                     <a href=""><img src="assets/img/x.png" alt=""></a>
                     <!-- <a href=""><img src="assets/img/instagram.png" alt=""></a> -->
@@ -92,7 +93,7 @@
     <!-- End of hero section -->
 
     <!-- Section for accomplishments -->
-    <div class="accomplishment-wrapper">
+    <div class="accomplishment-wrapper" id="accomplishment">
         <div class="accomplishments-card">
             <div class="accomplishment-box">
                 <img src="assets/img/Check icon.svg" alt="check">
@@ -151,7 +152,7 @@
     <!-- End of testimonial section -->
 
     <!-- section for skills and projects -->
-    <div class="skills-project-wrapper">
+    <div class="skills-project-wrapper" id="services">
         <div class="skills-container">
             <div class="language-container">
                 <div class="title">Languages</div>
@@ -197,13 +198,13 @@
         </div>
 
         <!-- Section for Projects -->
-        <div class="project-container">
+        <div class="project-container" id="project">
             <div class="description">
                 <p class="title">My Projects</p>
                 <p class="sub-title">This is a list of my top 3 projetcts. Please click on the arrow to visit my Github page to see all my projects</p>
             </div>
             <div class="project-box">
-                <img src="assets/img/azeez-01.jpg" alt="project logo">
+                <img src="assets/img/Equip1000 logo.svg" alt="project logo">
                 <div class="project-text">
                     <p class="project-name">EQUIP1000 Project</p>
                     <p class="project-description">Equip 1000 is a transformative project dedicated to bridging the digital divide and empowering educators with the tools and knowledge they need to thrive in the global digital arena. Thier mission is simple: Equip 1,000 educators with laptops, Wi-Fi access, and comprehensive training programs to unlock their potential and revolutionize education.</p>
@@ -211,7 +212,7 @@
                 </div>
             </div>
             <div class="project-box">
-                <img src="assets/img/azeez-01.jpg" alt="project logo">
+                <img src="assets/img/Rccg_logo-100x100.png" alt="project logo">
                 <div class="project-text">
                     <p class="project-name">Christ Ambassadors Houston Church</p>
                     <p class="project-description">Christ Ambassadors Houston Church is a vibrant community of believers committed to loving God, loving people, and making a positive impact in our world. They strive to create an environment where everyone feels welcome and valued. The church services are filled with uplifting worship, inspiring messages rooted in biblical truth, and opportunities for heartfelt fellowship.</p>
@@ -219,7 +220,7 @@
                 </div>
             </div>
             <div class="project-box">
-                <img src="assets/img/azeez-01.jpg" alt="project logo">
+                <img src="assets/img/tofar-logistics-transparent-logo-100x94.png" alt="project logo">
                 <div class="project-text">
                     <p class="project-name">TOFAR Logistics Agency</p>
                     <p class="project-description">  TOFAR Logistics Agency is more than just a shipping company — they are trusted partner in delivering seamless transportation solutions tailored to the customers needs. With a commitment to excellence and a passion for logistics, they strive to redefine the standards of efficiency, reliability, and customer satisfaction in the industry.</p>
@@ -236,7 +237,7 @@
     <!-- End of skill and project section -->
 
     <!-- Start of contact section -->
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contact">
         <div class="contact-container">
             <div class="contact-frame">
                 <div class="contact-title">
@@ -279,12 +280,15 @@
                 </div>
             </div>
             <div class="form-container">
-                <form action="/assets/js/contact.php" method="post">
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                <form id="contactForm">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
                     <textarea name="msg" id="msg" placeholder="Message"></textarea>
-                    <button>Send Message</button>
+                    <button type="submit">Send Message</button>
+                    <div class="status-box">
+                        <p class="status" id="status"></p>
+                    </div>
                 </form>
             </div>
         </div>
@@ -304,6 +308,7 @@
     </div>
 
 <script src="./assets/js/header.js"></script>
+<script src="assets/js/contactAPI.js"></script>
 
 </body>
 </html>

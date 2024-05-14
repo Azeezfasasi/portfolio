@@ -239,6 +239,11 @@
   object-fit: cover;
 }
 
+.social-wrapper .github {
+  width: 40px;
+  height: 40px;
+}
+
 .hero-section .scroll-down-indicator {
   background: linear-gradient(
     to left,
@@ -282,7 +287,8 @@
     height: 700px;
     width: 100%;
     margin-top: -100px;
-    padding-top: 120px;
+    padding-bottom: 300px;
+    overflow: hidden;
   }
   .hero-content-wrapper {
     display: flex;
@@ -518,6 +524,11 @@
     overflow: hidden;
     object-fit: cover;
   }
+
+  .social-wrapper .github {
+    width: 25px;
+    height: 25px;
+  }
   
   .hero-section .scroll-down-indicator {
     background: linear-gradient(
@@ -564,6 +575,7 @@
     width: 100%;
     margin-top: -100px;
     padding-top: 120px;
+    overflow: hidden;
   }
   
   .hero-content-wrapper {
@@ -807,6 +819,11 @@
     position: relative;
     overflow: hidden;
     object-fit: cover;
+  }
+
+  .social-wrapper .github {
+    width: 25px;
+    height: 25px;
   }
   
   .hero-section .scroll-down-indicator {

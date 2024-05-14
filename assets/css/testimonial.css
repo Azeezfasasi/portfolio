@@ -57,8 +57,9 @@
     gap: 10px;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 288px;
+    /* width: 288px; */
     height: 192px;
+    width: 200px;
     position: absolute;
     left: 40px;
     top: -40px;
@@ -138,6 +139,7 @@
 @media only screen and (max-width:767px) {
     .testimonial-wrapper {
         height: 315px;
+        overflow: hidden;
     }
 
     .testimonial-wrapper .testimonial-frame {
@@ -153,7 +155,62 @@
     }
 
     .testimonial-box .author-image {
+        width: 100px;
+        height: 96px;
+        position: absolute;
+        left: 20px;
+        top: -20px;
+    }
+
+    .testimonial-box .testimonial-text {
         width: 144px;
+        position: absolute;
+        left: 20px;
+        top: 92px;
+    }
+    
+    .testimonial-text .author-name {
+        font-size: 19px;
+        margin: 0;
+    }
+    
+    .testimonial-text .author-position {
+        font-size: 17px;
+    }
+    
+    .testimonial-box .author-description {
+        position: absolute;
+        left: 184px;
+        top: 20px;
+        margin: 0;
+    }
+    
+    .author-description p {
+        font-size: 17px;
+        line-height: 120%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .testimonial-wrapper {
+        height: 315px;
+        overflow: hidden;
+    }
+
+    .testimonial-wrapper .testimonial-frame {
+        width: 328px;
+        height: 267px;
+        overflow-x: scroll;
+        padding-top: 10px;
+    }
+
+    .testimonial-frame .testimonial-box {
+        width: 596px;
+        height: 218px;
+    }
+
+    .testimonial-box .author-image {
+        width: 100px;
         height: 96px;
         position: absolute;
         left: 20px;

@@ -281,13 +281,14 @@ form button {
     .contact-wrapper .contact-container {
         background: #ffffff;
         border-radius: 16px;
-        padding: 48px;
+        /* padding: 48px; */
+        padding: 20px;
         display: flex;
         flex-direction: column;
         gap: 40px;
         align-items: flex-start;
         justify-content: flex-start;
-        width: 70%;
+        width: 80%;
         overflow-x: hidden;
     }
 

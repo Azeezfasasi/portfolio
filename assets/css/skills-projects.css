@@ -12,7 +12,7 @@
     padding-bottom: 40px;
 }
 
-.skills-project-wrapper .skills-container {
+.skills-container {
     background: #ffffff;
     border-radius: 16px;
     border-width: 1px;
@@ -549,11 +549,11 @@
 
     /* Mobile Style for project section */
     .project-container {
-        padding: 42px 42px 0px 42px;
-        width: 70%;
+        width: 80%;
         height: fit-content;
         margin-top: 20px;
         height: fit-content;
+        padding: 20px;
     }
 
     .project-container .description {

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const textElement = document.getElementById('animated-text');
-    const text = 'AZEEZ FASASI';
+    const text = 'Frontend Developer';
     let index = 0;
     let deleting = false;
     

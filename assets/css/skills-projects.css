@@ -483,7 +483,8 @@
         justify-content: flex-start;
         align-self: stretch;
         flex-shrink: 0;
-        width: 296px;
+        /* width: 296px; */
+        width: 100%;
         position: relative;
     }
     
@@ -507,7 +508,8 @@
         justify-content: flex-start;
         align-self: stretch;
         flex-shrink: 0;
-        width: 296px;
+        /* width: 296px; */
+        width: 100%;
         position: relative;
         overflow-x: auto;
     }

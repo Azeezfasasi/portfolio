@@ -152,7 +152,8 @@
     }
 
     .testimonial-frame .testimonial-box {
-        width: 596px;
+        /* width: 596px; */
+        width: 430px;
         height: 218px;
     }
 
@@ -182,9 +183,12 @@
     
     .testimonial-box .author-description {
         position: absolute;
-        left: 184px;
-        top: 20px;
+        /* left: 184px; */
+        /* top: 20px; */
+        top: 0px;
+        left: 170px;
         margin: 0;
+        width: 55%;
     }
     
     .author-description p {
@@ -200,10 +204,12 @@
     }
 
     .testimonial-wrapper .testimonial-frame {
-        width: 328px;
+        /* width: 328px; */
         height: 267px;
         overflow-x: scroll;
         padding-top: 10px;
+        width: 90%;
+        margin-left: 30px;
     }
 
     .testimonial-frame .testimonial-box {

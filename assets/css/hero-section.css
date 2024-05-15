@@ -508,6 +508,10 @@
     justify-content: flex-start;
     text-decoration: none;
   }
+
+  .download-box i {
+    margin-right: 10px;
+  }
   
   .hero-details-wrapper .social-wrapper {
     display: flex;
@@ -805,6 +809,10 @@
     align-items: center;
     justify-content: flex-start;
     text-decoration: none;
+  }
+
+  .download-box i {
+    margin-right: 10px;
   }
   
   .hero-details-wrapper .social-wrapper {

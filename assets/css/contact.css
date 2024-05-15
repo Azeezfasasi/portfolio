@@ -146,6 +146,11 @@
     position: relative;
 }
 
+.image-box .github {
+    width: 40px;
+    height: 40px;
+}
+
 .contact-container .form-container {
     display: flex;
     flex-direction: column;
@@ -349,6 +354,11 @@ form button {
         position: relative;
     }
 
+    .image-box .github {
+        width: 25px;
+        height: 25px;
+    }
+
     .contact-container .form-container {
         display: flex;
         flex-direction: column;
@@ -524,6 +534,11 @@ form button {
         width: 50px;
         height: 50px;
         position: relative;
+    }
+
+    .image-box .github {
+        width: 25px;
+        height: 25px;
     }
 
     .contact-container .form-container {

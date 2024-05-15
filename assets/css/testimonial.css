@@ -143,10 +143,12 @@
     }
 
     .testimonial-wrapper .testimonial-frame {
-        width: 328px;
+        /* width: 328px; */
+        width: 75%;
         height: 267px;
         overflow-x: scroll;
         padding-top: 10px;
+        /* border: 2px solid black; */
     }
 
     .testimonial-frame .testimonial-box {

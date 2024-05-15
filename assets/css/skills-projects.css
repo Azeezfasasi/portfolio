@@ -393,8 +393,9 @@
     }
     
     .skills-project-wrapper .skills-container {
-        width: 70%;
+        width: 80%;
         height: 80%;
+        padding: 20px;
     }
 
     .skills-container .language-container {
@@ -429,9 +430,10 @@
         align-self: stretch;
         flex-shrink: 0;
         position: relative;
-        width: 350px;
+        /* width: 350px; */
         overflow-x: scroll;
         overflow-y: hidden;
+
     }
     
     .language-frame .language-box {
@@ -444,7 +446,6 @@
         margin: 0;
         width: 296px;
         text-align: center;
-        border: 1px solid black;
     }
     
     .language-box .language-logo {
@@ -474,7 +475,7 @@
         margin-top: -40px;
     }
     
-    .services-container {
+    .skills-container .services-container {
         display: flex;
         flex-direction: column;
         gap: 24px;

@@ -321,10 +321,12 @@ form button {
         height: 16px;
     }
     
-    .contact-info-box p {
+    .contact-info-box a {
         font-size: 15px;
         line-height: 120%;
         font-weight: 600;
+        text-decoration: none;
+        color: #c18c77;
     }
 
     .contact-container .social-container {

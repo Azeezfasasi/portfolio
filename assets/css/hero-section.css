@@ -54,7 +54,7 @@
     inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1);
     transform-origin: 0 0;
     backdrop-filter: blur(25px);
-    transform: rotate(-30deg);
+    /* transform: rotate(-30deg); */
     transform-origin: center;
 }
 
@@ -221,6 +221,9 @@
   text-decoration: none;
 }
 
+.download-box i {
+  margin-right: 10px;
+}
 .hero-details-wrapper .social-wrapper {
   display: flex;
   flex-direction: row;
@@ -339,7 +342,7 @@
       inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1);
       transform-origin: 0 0;
       backdrop-filter: blur(25px);
-      transform: rotate(-30deg);
+      /* transform: rotate(-30deg); */
       transform-origin: center;
   }
 
@@ -641,7 +644,7 @@
       inset 40px -40px 40px 0px rgba(165, 165, 165, 0.1);
       transform-origin: 0 0;
       backdrop-filter: blur(25px);
-      transform: rotate(-30deg);
+      /* transform: rotate(-30deg); */
       transform-origin: center;
   }
 

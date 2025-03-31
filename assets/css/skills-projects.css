@@ -407,6 +407,7 @@
         flex-shrink: 0;
         width: 100%;
         position: relative;
+        /* overflow-x: scroll; */
     }
     
     .language-container .title {
